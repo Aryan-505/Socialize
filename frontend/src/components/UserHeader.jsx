@@ -3,7 +3,7 @@ import { Box, Flex, Link, Text, VStack } from "@chakra-ui/layout";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 import { Portal } from "@chakra-ui/portal";
 import { Button, useToast } from "@chakra-ui/react";
-import { BsInstagram } from "react-icons/bs";
+// import { BsInstagram } from "react-icons/bs";
 import { CgMoreO } from "react-icons/cg";
 import { useRecoilValue } from "recoil";
 import userAtom from "../atoms/userAtom";
@@ -86,7 +86,7 @@ const UserHeader = ({ user }) => {
 				</Flex>
 				<Flex>
 					<Box className='icon-container'>
-						<BsInstagram size={24} cursor={"pointer"} />
+						{/* <BsInstagram size={24} cursor={"pointer"} /> */}
 					</Box>
 					<Box className='icon-container'>
 						<Menu>
@@ -107,7 +107,7 @@ const UserHeader = ({ user }) => {
 
 			<Flex w={"full"}>
 				<Flex flex={1} borderBottom={"1.5px solid white"} justifyContent={"center"} pb='3' cursor={"pointer"}>
-					<Text fontWeight={"bold"}> Threads</Text>
+					<Text fontWeight={"bold"}> Posts</Text>
 				</Flex>
 				<Flex
 					flex={1}
