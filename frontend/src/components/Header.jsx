@@ -32,11 +32,11 @@ const Header = () => {
 			<Image
 				cursor={"pointer"}
 				alt='logo'
-				w={6}
-				src={colorMode === "dark" ? "/light-logo.svg" : "/dark-logo.svg"}
+				w={9}
+				src={colorMode === "dark" ? "/2.png" : "/1.png"}
 				onClick={toggleColorMode}
 			/>
-
+            
 			{user && (
 				<Flex alignItems={"center"} gap={4}>
 					<Link as={RouterLink} to={`/${user.username}`}>
